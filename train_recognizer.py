@@ -17,6 +17,10 @@ import keras.backend as K
 import argparse
 import os
 
+#desable warnings
+import warnings
+warnings.filterwarnings("ignore")
+
 #Command line arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-c", "--checkpoints", required=True,
