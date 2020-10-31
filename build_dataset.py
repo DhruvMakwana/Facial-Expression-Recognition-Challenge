@@ -1,6 +1,8 @@
 #importing libraries
 #to run this file execute following command
 #python build_dataset.py
+import warnings
+warnings.filterwarnings("ignore")
 from config import emotion_config as config
 from hdf5 import hdf5datasetwriter
 import numpy as np 
