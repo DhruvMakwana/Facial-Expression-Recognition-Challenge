@@ -6,9 +6,9 @@ The Kaggle Emotion and Facial Expression Recognition challenge training dataset 
 28,709 images, each of which are 48×48 grayscale images (Figure 11.1). The faces have been
 automatically aligned such that they are approximately the same size in each image. Given these
 images, our goal is to categorize the emotion expressed on each face into seven distinct classes:
-angry, disgust, fear, happy, sad, surprise, and neutral
+angry, disgust, fear, happy, sad, surprise, and neutral.
 
-download dataset from <a href="https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data">here</a>
+Download the dataset: <a href="https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data">here</a>
 
 seven categories of labels are 0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral
 
