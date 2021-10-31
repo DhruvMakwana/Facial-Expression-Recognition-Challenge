@@ -1,6 +1,5 @@
-#importing libraries
-#to run this file execute following command
-#python test_recognizer.py --model checkpoints/vgg100/epoch_100.hdf5
+#importing libraries to run this file execute following command
+##  python test_recognizer.py --model checkpoints/vgg100/epoch_100.hdf5
 from config import emotion_config as config
 from preprocessing import imagetoarraypreprocessor
 from hdf5 import hdf5datasetgenerator
